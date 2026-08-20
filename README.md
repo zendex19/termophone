@@ -2,7 +2,10 @@
 
 Peer-to-peer voice calls in the terminal!
 
+‎
 ![Termophone](https://github.com/kurobyte19/U1907-site-images/blob/main/projects/screenshot.png?raw=true)
+
+![Click here to read a blog on how Termophone works!](https://19kb.qzz.io/blog/termophone)
 
 ## Requirements
 
@@ -14,17 +17,17 @@ Peer-to-peer voice calls in the terminal!
 - ffmpeg (for screen share)
 - mpv (for screen share receive)
 
-macOS (Homebrew):
-
-```bash
-brew install go pkg-config opus speexdsp ffmpeg mpv
-```
-
-Linux (Debian/Ubuntu):
+Linux (Debian/Ubuntu/whatever distro you like):
 
 ```bash
 sudo apt update
 sudo apt install -y golang pkg-config libopus-dev libspeexdsp-dev ffmpeg mpv
+```
+
+macOS (Homebrew):
+
+```bash
+brew install go pkg-config opus speexdsp ffmpeg mpv
 ```
 
 > **Note:** `rnnoise` must be built from source. Please refer to the [xiph/rnnoise repository](https://github.com/xiph/rnnoise) or their official documentation for build instructions.
@@ -111,8 +114,9 @@ go test . ./audio ./config ./net ./ui
 - [x] libp2p
 - [x] mDNS
 - [x] DHT
-- [ ] PCM mixing with clamping
+- [ ] PCM mixing with clamping (too costly!)
 
 ## License
 
-See `LICENSE`.
+well, it's MIT LICENSE \
+for more info see ![LICENSE](https://github.com/zendex19/termophone/blob/main/LICENSE)
