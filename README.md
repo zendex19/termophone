@@ -5,7 +5,7 @@ Peer-to-peer voice calls in the terminal!
 ‎
 ![Termophone](https://github.com/kurobyte19/U1907-site-images/blob/main/projects/screenshot.png?raw=true)
 
-![Click here to read a blog on how Termophone works!](https://19kb.qzz.io/blog/termophone)
+[Click here to read a blog on how Termophone works!](https://19kb.qzz.io/blog/termophone)
 
 ## Requirements
 
