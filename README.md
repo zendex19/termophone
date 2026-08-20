@@ -3,7 +3,7 @@
 Peer-to-peer voice calls in the terminal!
 
 ‎
-![Termophone](https://github.com/kurobyte19/U1907-site-images/blob/main/projects/screenshot.png?raw=true)
+![Termophone](https://19kb.qzz.io/blog/termophone)
 
 ![Click here to read a blog on how Termophone works!](https://19kb.qzz.io/blog/termophone)
 
@@ -113,7 +113,6 @@ go test . ./audio ./config ./net ./ui
 - [x] Ring buffer drift fix
 - [x] libp2p
 - [x] mDNS
-- [x] DHT
 - [ ] PCM mixing with clamping (too costly!)
 
 ## License
